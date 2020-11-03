@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600&display=swap');
+
+body {
+    min-height: 100vh;
+    background-color: #f7c7b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+form {
+    background-image: url(./assets/ian-dooley-aaAllJ6bmac-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120vmin;
+    height: 85vmin;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #313131,
+    -20px -20px 60px #b4b2b26c;
+}
+
+input {
+    margin-bottom: 2vh;
+}
+
+label, input {
+    display: block;
+    height: 15px;
+    width: 50vh;
+}
+
+input , option {
+    background-color: #00000021;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+    justify-items: right;
+    
+}
+
+label {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+fieldset {
+    margin: 2vh;
+    border: none;
+    margin-top: 5vh;
+}
+
+legend {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+label, input, legend, select{
+    margin-left: 60vh;
+}
+
+button {
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: #538BA4;
+    border-radius: 6px;
+    margin-left: 100vh;
+}
+button:hover {
+    background-color: #f7c7b2;
+}
+
+a {
+    color: rgba(128, 128, 128, 0.616);
+}
+
+input[type=checkbox] {
+    margin-right: 20px;
+}
+
+/*Tablet view*/
+
+@media only screen and (max-width: 1025px) {
+    body {
+        
+        
+    }
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 480px) {
+
+
+    form {
+        background-size: cover;
+        
+        width: 90%;
+        height: 90vh;
+    }
+
+    fieldset {
+        padding-top: 1vh;
+        margin: 5vh;
+    }
+
+    input {
+        margin-bottom: 5px;
+        background-color: #f7c7b29a;
+        padding: 10px;
+    }
+
+    legend {
+        font-size: x-large;
+    }
+    input, label, legend {
+        width:100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    select {
+        margin: 0;
+    }
+
+    button {
+        margin: 0;
+        margin-top: 10px;
+        background-color: #e94d0a9a;
+        height: 30px;
+    }
+    a {
+        color: rgba(66, 66, 66, 0.616);
+    }
+}

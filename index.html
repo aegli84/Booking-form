@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="https://www.google.com/">
+        
+        <fieldset>
+            <legend>Tell us about you</legend>
+            <!--<label for="fname">First Name</label>-->
+            <input name="nameFirst" type="text" placeholder="First Mame" id="fname">
+            <!--<label for="lname">Last Name</label>-->
+            <input name="lastFirst" type="text" placeholder="Last Name">
+            <input name="emailFirst" type="email" placeholder="you@gmail.com" id="email">
+            <input name="pass" type="password" id="pass" placeholder="Password">
+            <!--<label for="bdate">Birth date</label>
+            <input type="date" id="bdate" min="1900-01-01" max="2000-12-31">-->
+            <!--<label for="pno">Phone number</label>-->
+            <input type="tel" id="pno" placeholder="Tel. no.">
+    
+        
+            <legend>Booking details</legend>
+            <label>Number of Guests</label>
+            <select name="numberofguests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        
+            <!--<label>Age</label>-->
+            <input type="number" name="age" value="18">
+        
+            <label for="chooseadate">Choose date</label>
+            <input type="date" name="chooseadate">
+            <button type="submit" value="Book now"onclick="alert('Confirmed!')" >Book now</button>
+            
+            <input type="checkbox" name="subscribe" id="subscribe"checked>
+            <label for="subscribe">Subscribe to our mailing list</label>
+            
+            <input type="checkbox" name="acceptterms" id="acceptterms"required>
+            <label for="acceptterms">I have read the terms and conditions. 
+            <a href="#">Read terms and conditions</a></label>
+        
+    </fieldset>
+    </form>
+        <!--<fieldset>
+            <legend>Address</legend>
+            <label id="cities">City</label>
+            <select id="cities">
+                <optgroup label="NRW">
+                    <option value="Berlin">Berlin</option>
+                    <option value="Dusseldorf">Dusseldorf</option>
+                </optgroup>
+                <option value="Frankfurt">Frankfurt</option>
+                <optgroup label="Bayern">
+                    <option value="Munchen">Munchen</option>
+                    <option value="Ulm">Ulm</option>
+                    <option value="Nurnberg">Nurnberg</option>
+                </optgroup>
+            </select>
+
+            <label for="street">Street</label>
+            <input type="street" type="text" minlenght="3" maxlenght="30">
+
+            <label for="houseno">House No</label>
+            <input id="houseno" type="text">
+
+            <label for="postcode">Post Code</label>
+            <input type="number" id="postcode" min="10000" max="99999">
+        </fieldset>-->
+        <!--This is the correct but not the best way to show a submit button-->
+        <!--<button>GO!</button>-->
+        <!--This is the correct and better way to show a submit button-->
+        
+</body>
+</html>
