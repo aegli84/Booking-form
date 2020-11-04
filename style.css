@@ -37,7 +37,6 @@ input , option {
     border-bottom: 3px solid #ffffff;
     border-radius: 20px;
     padding: 5px;
-    justify-items: right;
     
 }
 
@@ -86,10 +85,19 @@ input[type=checkbox] {
 /*Tablet view*/
 
 @media only screen and (max-width: 1025px) {
-    body {
-        
-        
+    form {
+        width: 100%;
+        height: 90vh;
     }
+
+    legend {
+        font-size: x-large;
+    }
+
+    input, label, legend, select {
+        margin-left: 65vh;
+    }
+
 }
 
 /* Mobile view */
@@ -99,7 +107,6 @@ input[type=checkbox] {
 
     form {
         background-size: cover;
-        
         width: 90%;
         height: 90vh;
     }
