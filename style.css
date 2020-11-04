@@ -103,10 +103,13 @@ input[type=checkbox] {
 /* Mobile view */
 
 @media only screen and (max-width: 480px) {
-
+    body {
+        background-image: url(./assets/ian-dooley-aaAllJ6bmac-unsplash.jpg);
+    }
 
     form {
-        background-size: cover;
+        background-image: none;
+        background-color:  #f7c7b2;
         width: 90%;
         height: 120vh;
     }
