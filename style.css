@@ -108,7 +108,7 @@ input[type=checkbox] {
     form {
         background-size: cover;
         width: 90%;
-        height: 90vh;
+        height: 120vh;
     }
 
     fieldset {
